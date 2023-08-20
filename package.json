@@ -1,0 +1,15 @@
+{
+  "name": "react-socket-chat",
+  "version": "1.0.0",
+  "description": "the main directory for the Full stack app",
+  "scripts": {
+    "start:api": "cd server && npm run dev",
+    "start:web": "cd client && npm start --host",
+    "set": " cd server && npm install && cd ../client && npm install",
+    "set:api": "cd server && npm install",
+    "set:web": "cd client && npm install"
+  },
+  "keywords": [],
+  "author": "m.bebars",
+  "license": "ISC"
+}
